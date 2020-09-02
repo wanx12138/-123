@@ -101,10 +101,27 @@ turtle.circle(300)
 zhou = str(input('发现周某 是否抓捕：'))
 while True:
     if zhou =='是':
-       print('抓捕成功 +5000金 +偷盗指南')
+       print('抓捕成功 +500金 +偷盗指南')
        break
     else:
         print('抓捕失败 HP-100')
         break
 
+print('广告：充电五小时 通话两分钟 欧普手机值得信赖')
+print('VIP可跳过广告')
+pay = str(input('是否选择充值'))
+while True:
+    if pay =='是':
+       print('请选择充值价格')
+       break
+    else:
+        print('充值失败HP-100 需看6000秒广告获得血量')
+        pay = str(input('是否选择充值'))
+        break
+afford = str(input('请选择充值金额：￥100 ￥200 ￥300 ￥400 ￥500：'))
+zhi = str(input('请选择充值途径：【支付宝】【微信】【银行卡】'))
+print('充值成功 恭喜您被大奖砸中成为尊贵的SVIP200 每月充值1000元续费（自动充值）')
+
+    
+    
 
